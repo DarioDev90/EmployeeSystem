@@ -101,6 +101,7 @@ public class EmployeeController implements Initializable {
             alert.showAndWait();
 
             TableView();
+            LimpiarTable();
 
         } catch (SQLException e) {
             Logger.getLogger(EmployeeController.class.getName()).log(Level.SEVERE, null, e);
